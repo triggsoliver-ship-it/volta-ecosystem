@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://volta-consultancy.vercel.app/sitemap.xml

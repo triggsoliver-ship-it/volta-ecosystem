@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://team-volta.vercel.app/sitemap.xml
