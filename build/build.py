@@ -154,13 +154,13 @@ def hub_partners():
 <div class="head"><p class="kicker">Player coaching and analysis · review copy 21 Oct 2026</p><h2>Seventeen player journeys, awaiting each player's consent.</h2>
 <p class="lede">Public sites show club milestones only, with no names, until wording and consent are confirmed for each story.</p></div>
 <div style="overflow-x:auto"><table><thead><tr><th>Player</th><th>Relationship to Volta</th><th>Club milestones</th><th>Coaching hours</th><th>Analysis hours</th></tr></thead><tbody id="pplayers"><tr><td colspan="5" class="mute">Loading…</td></tr></tbody></table></div>
-<p class="mute" style="margin-top:14px">* Luke Rae: 8 hours in the source PDF, blank in its workbook. Gatlin O'Donkor: 40 in the source PDF, 0 in its workbook. Pending reconciliation.</p>
+<p class="mute" style="margin-top:14px">* Two coaching-hour figures differ between the source PDF and its workbook and are pending reconciliation.</p>
 </div></section>
 <section class="sec" id="tools"><div class="wrap">
 <div class="head"><p class="kicker">Tools</p><h2>What partners can use today.</h2></div>
 <div class="grid g3">
 <div class="cell"><h3>Enquiries inbox</h3><p>Every enquiry from every Volta site, in one list, organised by division, with status, owner and notes.</p><p style="margin-top:12px"><a href="/partners/inbox">Open the inbox</a></p></div>
-<div class="cell"><h3>Launch roadmap</h3><p>The revised roadmap answering the October partner feedback, including the January mandate pilot.</p><p style="margin-top:12px"><a href="/partners/Volta_Roadmap_v2.pdf">Download the PDF</a></p></div>
+<div class="cell"><h3>Launch roadmap</h3><p>Roadmap v2 answers the October partner feedback and sets out the January mandate pilot. It is circulated to partners directly rather than hosted here.</p></div>
 <div class="cell"><h3>Partner previews</h3><p><a href="{I['url']}/">Volta Intelligence ↗</a> (unlisted) and <a href="{A['url']}/">Volta Africa ↗</a> (same partner password).</p></div>
 </div></div></section>
 """
@@ -596,8 +596,12 @@ def intelligence():
 
 
 # =================================================================== AFRICA (password-protected)
+def africa_body():
+    # Frozen v1 Volta Africa content (hero to community). Edit build/africa_body.html directly.
+    return open(os.path.join(os.path.dirname(__file__), "africa_body.html")).read()
+
+
 def africa():
-    from build_v1_africa import africa_body
     k = "volta-africa"
     links = [("#why", "Why Volta"), ("#products", "Products"), ("#ghana", "Ghana pilot"), ("#connect", "Connection to Intelligence"), ("#community", "Community")]
     h = head(k, "Volta Africa | Partner preview", "Private partner preview: African football scouting, development and recruitment intelligence, beginning in Ghana.", noindex=True)
