@@ -3,23 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Volta Intelligence | The global football CRM and opportunity engine</title>
-<meta name="description" content="A connected platform for football agents, scouts and clubs: global player, club and agent intelligence, contract radar, AI player-to-club matching, mandates, outreach and deal tracking.">
+<title>Volta Intelligence | Football recruitment intelligence and mandate engine</title>
+<meta name="description" content="Volta Intelligence matches player data to clubs' positional needs and the decision-makers behind them, so Volta can open the right conversations and secure recruitment mandates.">
 <meta name="keywords" content="Volta, Volta Intelligence, football, The global football CRM and opportunity engine">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="robots" content="noindex,nofollow">
 <link rel="canonical" href="https://volta-intelligence.vercel.app">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Volta Intelligence">
-<meta property="og:title" content="Volta Intelligence | The global football CRM and opportunity engine">
-<meta property="og:description" content="A connected platform for football agents, scouts and clubs: global player, club and agent intelligence, contract radar, AI player-to-club matching, mandates, outreach and deal tracking.">
+<meta property="og:title" content="Volta Intelligence | Football recruitment intelligence and mandate engine">
+<meta property="og:description" content="Volta Intelligence matches player data to clubs' positional needs and the decision-makers behind them, so Volta can open the right conversations and secure recruitment mandates.">
 <meta property="og:url" content="https://volta-intelligence.vercel.app">
 <meta property="og:image" content="https://volta-intelligence.vercel.app/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Volta Intelligence | The global football CRM and opportunity engine">
-<meta name="twitter:description" content="A connected platform for football agents, scouts and clubs: global player, club and agent intelligence, contract radar, AI player-to-club matching, mandates, outreach and deal tracking.">
+<meta name="twitter:title" content="Volta Intelligence | Football recruitment intelligence and mandate engine">
+<meta name="twitter:description" content="Volta Intelligence matches player data to clubs' positional needs and the decision-makers behind them, so Volta can open the right conversations and secure recruitment mandates.">
 <meta name="twitter:image" content="https://volta-intelligence.vercel.app/og.png">
 <meta name="theme-color" content="#14355E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23F6F2EA%22/%3E%3Cpath%20d%3D%22M10%2010h14l8%2030%208-30h14L40%2056H24z%22%20fill%3D%22%2314355E%22%20stroke%3D%22%23C9A24B%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
@@ -144,112 +144,147 @@ footer ul{list-style:none;margin:0;padding:0}footer li{margin:6px 0}
 footer li small{display:block;color:#9B968B}
 footer .fine{border-top:1px solid #3a3732;margin-top:40px;padding-top:20px;color:#9B968B;font-size:13px}
 footer .brand{color:#fff}footer .brand small{color:var(--gold)}
+footer .disc{border:1px solid #3a3732;border-radius:6px;padding:14px 16px;margin-top:28px;color:#CFC9BC;font-size:13px;line-height:1.5}
+/* v2 */
+.previewbar{background:var(--gold);color:#121212;font-size:13px;font-weight:600;text-align:center;padding:7px 16px}
+.err{display:none;padding:14px;border:2px solid #A51C24;border-radius:6px;color:#A51C24;font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:560px){.row2{grid-template-columns:1fr}}
+.notice{border:2px solid var(--ink);border-radius:6px;padding:20px 22px;background:#fff}
+.notice p{margin:0;color:var(--ink-2)}
+.notice b{display:block;margin-bottom:6px}
+.draft{display:inline-block;background:var(--gold);color:#121212;font-weight:700;font-size:12px;border-radius:3px;padding:3px 8px;margin-bottom:14px}
+.years{display:grid;gap:0;border-top:2px solid var(--ink)}
+.yr{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.yr>b{font-size:38px;font-weight:800;font-stretch:112%;line-height:1;color:var(--accent)}
+.fx{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:flex-start}
+.fx span,.fx a{border:1.5px solid var(--ink);border-radius:4px;padding:7px 11px;font-size:14px;font-weight:600;text-decoration:none;background:#fff}
+.fx small{font-weight:500;color:var(--mute);margin-left:6px}
+.fx a{border-color:var(--accent)}.fx a:hover{background:var(--accent);color:#fff}.fx a:hover small{color:#fff}
+@media (max-width:560px){.yr{grid-template-columns:1fr;gap:8px}.yr>b{font-size:30px}}
+.journey{border:2px solid var(--ink);border-radius:6px;padding:18px;background:#fff}
+.journey .path{font-weight:700;font-size:17px;line-height:1.3;margin-bottom:8px}
+.journey .who{font-size:13px;color:var(--mute)}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Volta Intelligence", "url": "https://volta-intelligence.vercel.app", "description": "A connected platform for football agents, scouts and clubs: global player, club and agent intelligence, contract radar, AI player-to-club matching, mandates, outreach and deal tracking.", "parentOrganization": {"@type": "Organization", "name": "Volta", "url": "https://volta-group.vercel.app"}, "sameAs": ["https://volta-group.vercel.app", "https://team-volta.vercel.app", "https://volta-management.vercel.app", "https://volta-consultancy.vercel.app", "https://volta-africa.vercel.app"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Volta Intelligence", "url": "https://volta-intelligence.vercel.app", "description": "Volta Intelligence matches player data to clubs' positional needs and the decision-makers behind them, so Volta can open the right conversations and secure recruitment mandates.", "parentOrganization": {"@type": "Organization", "name": "Volta Sports", "url": "https://volta-group.vercel.app"}, "sameAs": ["https://volta-group.vercel.app"]}</script>
 
 </head>
 <body>
-<header class="top"><div class="wrap">
+<div class="previewbar" role="note">Partner preview. Wording, credentials and player stories are awaiting Volta approval before public launch.</div><header class="top"><div class="wrap">
 <a class="brand" href="/" aria-label="Volta Intelligence home"><svg class="vmark " width="32" height="43" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#14355E" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="none" stroke="#C9A24B" stroke-width="2.5"><circle cx="60" cy="140" r="5"/><circle cx="46" cy="150" r="3"/><circle cx="74" cy="150" r="3"/><path d="M56 143l-8 5M64 143l8 5"/></g></svg><span>Volta<small>Intelligence</small></span></a>
 <button class="menu" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
-<nav class="nav" id="nav" aria-label="Main"><a href="#usecase">Flagship use case</a><a href="#modules">Platform</a><a href="#experiences">Who it's for</a><a href="#trust">Trust</a><a href="#roadmap">Roadmap</a><a class="btn" href="#contact">Get in touch</a></nav>
+<nav class="nav" id="nav" aria-label="Main"><a href="#pilot">January pilot</a><a href="#usecase">How a mandate works</a><a href="#modules">Platform</a><a href="#data">Data</a><a href="#trust">Trust</a><a class="btn" href="#contact">Get in touch</a></nav>
 </div></header>
 <section class="hero"><div class="wrap">
-<div><p class="kicker">Volta Intelligence</p>
+<div><p class="kicker">Volta Intelligence · partner preview</p>
 <h1>Know who needs what. Know who fits. Know who to contact.</h1>
-<p class="lede" style="margin-top:26px">The global football CRM and opportunity engine for agents, scouts and clubs. From talent discovery and recruitment mandates to signed transactions, in one workflow.</p>
-<div class="cta"><a class="btn" href="#contact">Request a demonstration</a><a class="btn ghost" href="#modules">See the platform</a></div></div>
+<p class="lede" style="margin-top:26px">A football intelligence and opportunity engine: player performance data, club needs and decision-makers in one place, turned into tailored introductions that win recruitment mandates.</p>
+<div class="cta"><a class="btn" href="#pilot">The January pilot</a><a class="btn ghost" href="#usecase">How a mandate works</a></div></div>
 <svg class="vmark big" width="300" height="405" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#14355E" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="none" stroke="#C9A24B" stroke-width="2.5"><circle cx="60" cy="140" r="5"/><circle cx="46" cy="150" r="3"/><circle cx="74" cy="150" r="3"/><path d="M56 143l-8 5M64 143l8 5"/></g></svg>
 </div></section>
-<div class="ribbon" aria-hidden="true"><span>Know</span><i>›</i><span>Predict</span><i>›</i><span>Execute</span><i>◆</i><span>Players</span><i>◆</i><span>Clubs</span><i>◆</i><span>Agencies</span><i>◆</i><span>Know</span><i>›</i><span>Predict</span><i>›</i><span>Execute</span><i>◆</i><span>Players</span><i>◆</i><span>Clubs</span><i>◆</i><span>Agencies</span><i>◆</i><span>Know</span><i>›</i><span>Predict</span><i>›</i><span>Execute</span><i>◆</i></div>
-<section class="sec" id="usecase"><div class="wrap">
-<div class="head"><p class="kicker">Flagship use case</p><h2>A club loses its starting left-back. Here is what happens next.</h2>
-<p class="lede">The platform turns one verified event into a revenue-generating workflow: from detecting the squad gap to acting for the club under an authorised mandate.</p></div>
+<div class="ribbon" aria-hidden="true"><span>Know</span><i>›</i><span>Match</span><i>›</i><span>Introduce</span><i>›</i><span>Mandate</span><i>›</i><span>Deal</span><i>›</i><span>Know</span><i>›</i><span>Match</span><i>›</i><span>Introduce</span><i>›</i><span>Mandate</span><i>›</i><span>Deal</span><i>›</i><span>Know</span><i>›</i><span>Match</span><i>›</i><span>Introduce</span><i>›</i><span>Mandate</span><i>›</i><span>Deal</span><i>›</i></div>
+<section class="sec" id="pilot"><div class="wrap"><div class="split">
+<div><p class="kicker">January 2027 transfer window</p><h2>A working prototype, tested on real mandates.</h2>
+<p class="lede">The first version is built to do one job well before the window opens: match the players Volta can place to clubs with a genuine positional need, and help the team open those conversations with the right person.</p>
+<p class="mute">Club mandates typically carry a 5 to 10% fee. Several mandates in one window would validate the platform commercially before wider build.</p></div>
 <div class="steps">
-<div class="step"><div><h3>Detect</h3><p>A verified departure updates the squad graph. Source and confidence shown.</p></div></div>
-<div class="step"><div><h3>Assess</h3><p>AI reviews available full-backs, the tactical system, replacement options and likely budget.</p></div></div>
-<div class="step"><div><h3>Identify</h3><p>Locate the recruitment decision-maker and any previous relationship.</p></div></div>
-<div class="step"><div><h3>Approach</h3><p>Draft a tailored introduction offering a mandate to source left-back profiles. A human approves before anything is sent.</p></div></div>
-<div class="step"><div><h3>Authorise</h3><p>Record the club's agreement, scope and signatures. Run licensing and conflict checks.</p></div></div>
-<div class="step"><div><h3>Source</h3><p>Match candidates by role, level, feasibility, wage and playing characteristics.</p></div></div>
-<div class="step"><div><h3>Present</h3><p>Send a structured shortlist with video and financial parameters. Capture feedback.</p></div></div>
-<div class="step"><div><h3>Progress</h3><p>Track negotiation, milestones, fee entitlements and mandate completion.</p></div></div>
+<div class="step"><div><h3>Player profiles</h3><p>Volta-supported players with licensed performance data: pressing, ball regains, final-third contribution and physical output, compared against league benchmarks.</p></div></div>
+<div class="step"><div><h3>Club needs</h3><p>Squad depth, departures, contract expiries and recruitment briefs, with each fact's source and confidence.</p></div></div>
+<div class="step"><div><h3>Decision-makers</h3><p>Sporting directors, heads of recruitment and chief scouts, with relationship history.</p></div></div>
+<div class="step"><div><h3>Matched introductions</h3><p>A short, data-backed note for each club, reviewed and sent by Volta, offering to source for that position.</p></div></div>
+<div class="step"><div><h3>Mandate tracking</h3><p>Replies, agreements, shortlists and fees tracked through to completion.</p></div></div>
+</div></div></div></section>
+<section class="sec alt" id="usecase"><div class="wrap">
+<div class="head"><p class="kicker">How a mandate works</p><h2>A club loses its starting left-back. Here is what happens next.</h2></div>
+<div class="steps">
+<div class="step"><div><h3>Detect</h3><p>A confirmed departure updates the club's squad picture. Source and confidence shown.</p></div></div>
+<div class="step"><div><h3>Assess</h3><p>The engine reviews available full-backs against the club's system, level and likely budget.</p></div></div>
+<div class="step"><div><h3>Identify</h3><p>Find the recruitment decision-maker and any previous relationship with Volta.</p></div></div>
+<div class="step"><div><h3>Approach</h3><p>Draft a tailored introduction offering to source left-back profiles. A Volta adviser approves before anything is sent.</p></div></div>
+<div class="step"><div><h3>Authorise</h3><p>Record the club's agreement, scope and fee. Run licensing and conflict checks.</p></div></div>
+<div class="step"><div><h3>Source and present</h3><p>Match candidates by role, level, feasibility and wage, find who represents them, and present a structured shortlist with video and data.</p></div></div>
+<div class="step"><div><h3>Complete</h3><p>Track negotiation, milestones and fee entitlement to completion.</p></div></div>
 </div></div></section>
 <section class="sec dark" id="modules"><div class="wrap">
-<div class="head"><p class="kicker">The platform</p><h2>Twelve connected modules. One shared intelligence layer.</h2></div>
+<div class="head"><p class="kicker">The platform</p><h2>Connected modules. One shared intelligence layer.</h2></div>
 <div class="grid g3">
-<div class="cell"><h3>Global player intelligence</h3><p>A living player passport: identity, eligibility, contract end-dates, video, analytics, representation status and source provenance.</p></div>
-<div class="cell"><h3>Club intelligence and needs</h3><p>Squad depth, expiring deals, decision-makers, tactical model and confirmed versus inferred recruitment briefs.</p></div>
-<div class="cell"><h3>Agent and agency intelligence</h3><p>Licensed agent directory, verified rosters, relationships, conflicts and lawful approach windows.</p></div>
-<div class="cell"><h3>AI player-to-club matching</h3><p>Bi-directional recommendations that explain fit, costs, constraints and uncertainty.</p></div>
-<div class="cell"><h3>Transfer and contract radar</h3><p>Contract thresholds at 3, 6 and 12 months, vacancies, staff changes and window alerts.</p></div>
-<div class="cell"><h3>Relationship CRM</h3><p>Football-specific institutional memory centred on people, not inboxes.</p></div>
-<div class="cell"><h3>Outreach and presentations</h3><p>Player dossiers, playlists, club-specific messages and multilingual sequences with human review.</p></div>
-<div class="cell"><h3>Mandates and deal pipeline</h3><p>Identified, approached, mandate pending, authorised, sourcing, shortlist, deal. E-signature and financial models.</p></div>
-<div class="cell"><h3>Regulatory intelligence</h3><p>FIFA and national rules, GBE and work permits, minors, training compensation and the 2027 transfer framework.</p></div>
-<div class="cell"><h3>Scouting and development</h3><p>Standardised templates, video tagging, longitudinal tracking and potential indicators.</p></div>
-<div class="cell"><h3>Athlete management</h3><p>Development plans, performance support, commercial opportunities and restricted welfare data.</p></div>
-<div class="cell"><h3>Conversational AI assistant</h3><p>“Show me the ten most valuable opportunities for Volta today, and why.” With evidence links.</p></div>
+<div class="cell"><h3>Player intelligence</h3><p>Profile, eligibility, contract dates, performance and physical data, video and representation status.</p></div>
+<div class="cell"><h3>Club intelligence and needs</h3><p>Squad depth, expiring deals, decision-makers, playing style and confirmed versus predicted needs.</p></div>
+<div class="cell"><h3>Agent and agency intelligence</h3><p>Licensed agents, verified client lists, relationships and conflicts.</p></div>
+<div class="cell"><h3>Player-to-club matching</h3><p>Recommendations that explain fit, cost, constraints and uncertainty.</p></div>
+<div class="cell"><h3>Contract and transfer radar</h3><p>Expiry alerts at 3, 6 and 12 months, vacancies, staff changes and window deadlines.</p></div>
+<div class="cell"><h3>Relationship CRM</h3><p>Every conversation, reply and agreement with clubs, agents and players.</p></div>
+<div class="cell"><h3>Outreach and presentations</h3><p>Player dossiers and club-specific introductions, reviewed before sending.</p></div>
+<div class="cell"><h3>Mandates and deals</h3><p>From first approach to signed mandate, shortlist and completed transfer.</p></div>
+<div class="cell"><h3>Football assistant</h3><p>"Which clubs in League One need a left-footed centre-back in January, and who do we know there?"</p></div>
 </div></div></section>
-<section class="sec" id="experiences"><div class="wrap">
-<div class="head"><p class="kicker">Who it's for</p><h2>One platform. Three experiences.</h2></div>
+<section class="sec" id="data"><div class="wrap">
+<div class="head"><p class="kicker">Data</p><h2>Built on the data clubs already use.</h2>
+<p class="lede">Clubs judge players with professional event, video and physical data. Volta Intelligence is designed to work with licensed data from established providers, so the evidence we send is in the language recruitment teams trust. Provider selection is under way.</p></div>
 <div class="grid g3">
-<div class="cell"><h3>Agent command centre</h3><p>Top matches and club needs, contract radar, mandate pipeline, player servicing, personalised outbound and deal finances.</p></div>
-<div class="cell"><h3>Club recruitment portal</h3><p>Confidential briefs, tactical requirements, authorised mandates, vetted shortlists and feedback.</p></div>
-<div class="cell"><h3>Scout intelligence desk</h3><p>Assignment briefs, live evaluations, video analysis, coverage areas and peer benchmarking.</p></div>
-</div>
-<div style="margin-top:44px"><h3 style="margin-bottom:14px">Questions the system should answer</h3>
-<div class="pills"><span>Which clubs in Belgium, Austria and Denmark need a left-footed defender in January?</span><span>Which represented players reach a verified contract milestone in 120 days?</span><span>Who at this club do we know, and what have they told us they need?</span><span>Prepare a compliant request to be appointed to recruit for this club. Draft only.</span></div></div>
-</div></section>
+<div class="cell"><h3>Event and video data</h3><p>Every on-ball action, linked to the clip, across professional and youth competitions.</p></div>
+<div class="cell"><h3>Physical and off-ball data</h3><p>Speed, distance, high-intensity runs, pressing and positioning.</p></div>
+<div class="cell"><h3>Comparison and fit</h3><p>Similar-player search and how a player's output translates to another league.</p></div>
+</div></div></section>
 <section class="sec alt" id="trust"><div class="wrap"><div class="split">
-<div><p class="kicker">Trust by design</p><h2>Every recommendation shows its evidence and its uncertainty.</h2>
-<p class="lede">No participant gets unrestricted access. Players, clubs and agencies share only what their role, rights and verified relationships permit.</p></div>
-<div><table><thead><tr><th>Confidence state</th><th>Meaning</th></tr></thead><tbody>
-<tr><td><b>Confirmed</b></td><td>Official source or direct verified confirmation</td></tr>
-<tr><td><b>Verified</b></td><td>Verified by an authorised party</td></tr>
-<tr><td><b>Reported</b></td><td>Third-party information with a traceable origin</td></tr>
-<tr><td><b>Inferred</b></td><td>Model-produced estimate or prediction</td></tr>
-<tr><td><b>Unknown</b></td><td>Unavailable, restricted or unverified</td></tr>
+<div><p class="kicker">Trust by design</p><h2>Every recommendation shows its evidence.</h2>
+<p class="lede">Facts are labelled confirmed, reported or predicted. External contact always passes a human. Representation rules, minors' protections and data-licence terms are built into the workflow.</p></div>
+<div><table><thead><tr><th>Label</th><th>Meaning</th></tr></thead><tbody>
+<tr><td><b>Confirmed</b></td><td>Official source or direct confirmation</td></tr>
+<tr><td><b>Reported</b></td><td>Third-party information with a traceable source</td></tr>
+<tr><td><b>Predicted</b></td><td>The engine's estimate, shown with its reasons</td></tr>
+<tr><td><b>Unknown</b></td><td>Not available or not verified</td></tr>
 </tbody></table></div>
-</div>
-<div class="grid g4" style="margin-top:44px">
-<div class="cell"><h3>Representation rules</h3><p>Licence, client identity, scope and written agreement before acting. Conflict and multiple-representation checks.</p></div>
-<div class="cell"><h3>Privacy and permissions</h3><p>Lawful sources, suppression lists, record-level permissions and stronger restrictions on youth, health and welfare data.</p></div>
-<div class="cell"><h3>Minors</h3><p>Guardian consent, approach rules and FIFA international transfer restrictions built into the workflow.</p></div>
-<div class="cell"><h3>Human approval</h3><p>External contact, publication and commitments always pass a human gate. AI output is never legal clearance.</p></div>
 </div></div></section>
-<section class="sec" id="roadmap"><div class="wrap">
-<div class="head"><p class="kicker">Roadmap</p><h2>Internal operating system first. Global platform second.</h2></div>
-<div class="grid g3">
-<div class="cell"><h3>Phase 1: foundation</h3><p>Player, club, agency and contact records; search; recruitment-need records; mandate pipeline; email, tasks and presentations; permissions and provenance.</p></div>
-<div class="cell"><h3>Phase 2: intelligence</h3><p>Matching, opportunity scores, contract and transfer radar, predicted club requirements, rules engine, financial modelling and the AI assistant.</p></div>
-<div class="cell"><h3>Phase 3: expansion</h3><p>Club and agent network with verified briefs, the <a href="https://volta-africa.vercel.app/">Ghana youth pilot</a>, pathway prediction, partner dashboards, APIs and multi-organisation subscriptions.</p></div>
-</div>
-<p class="mute" style="margin-top:28px">Phase boundaries are product decisions, not calendar promises. Scope, licensed data access and acceptance criteria are agreed with the development partner first.</p>
-</div></section>
 <section class="sec" id="ecosystem"><div class="wrap">
-<div class="head"><p class="kicker">The Volta ecosystem</p><h2>One family. Six connected parts.</h2><p class="lede">Each part of Volta has its own site, its own colour and its own job. Together they run one connected model: media builds trust, intelligence finds the opportunity, relationships create access and Volta delivers the service.</p></div>
-<div class="eco"><a href="https://volta-group.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#C9A24B" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><rect x="52" y="132" width="16" height="16" fill="#C9A24B" transform="rotate(45 60 140)"/></svg><h3>Volta</h3><p>Group hub and ecosystem</p><b>Visit site ↗</b></a><a href="https://team-volta.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#A51C24" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="#C9A24B"><circle cx="60" cy="124" r="4.5"/><path d="M57 130h6l3 14-4 1-2-7-1 12h-5l-1-12-2 7-4-1z"/><circle cx="69" cy="149" r="4"/></g></svg><h3>Team Volta</h3><p>Player development and identification</p><b>Visit site ↗</b></a><a href="https://volta-management.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#121212" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><path d="M60 128 l4.4 9.6 10.5 1.2-7.8 7.2 2.1 10.4-9.2-5.3-9.2 5.3 2.1-10.4-7.8-7.2 10.5-1.2z" fill="#C9A24B"/></svg><h3>Volta Management</h3><p>Representation and athlete management</p><b>Visit site ↗</b></a><a href="https://volta-consultancy.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#0F5F3C" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><circle cx="60" cy="140" r="8" fill="#C9A24B"/></svg><h3>Volta Consultancy</h3><p>Investment and acquisition advisory</p><b>Visit site ↗</b></a><a href="https://volta-intelligence.vercel.app/" class="here"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#14355E" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="none" stroke="#C9A24B" stroke-width="2.5"><circle cx="60" cy="140" r="5"/><circle cx="46" cy="150" r="3"/><circle cx="74" cy="150" r="3"/><path d="M56 143l-8 5M64 143l8 5"/></g></svg><h3>Volta Intelligence</h3><p>Football CRM and opportunity engine</p><b>You are here</b></a><a href="https://volta-africa.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#C8541A" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="#C9A24B"><circle cx="60" cy="140" r="6"/><path d="M60 128v5M60 147v5M48 140h5M67 140h5M51 131l3.5 3.5M65.5 145.5l3.5 3.5M69 131l-3.5 3.5M54.5 145.5 51 149" stroke="#C9A24B" stroke-width="2.4" stroke-linecap="round"/></g></svg><h3>Volta Africa</h3><p>African talent intelligence, Ghana first</p><b>Visit site ↗</b></a></div>
+<div class="head"><p class="kicker">Volta</p><h2>Where to go next.</h2><p class="lede">Volta Intelligence is a partner preview within Volta Sports.</p></div>
+<div class="eco"><a href="https://volta-group.vercel.app/" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#C9A24B" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><rect x="52" y="132" width="16" height="16" fill="#C9A24B" transform="rotate(45 60 140)"/></svg><h3>Volta Sports</h3><p>Volta Sports: the divisions in one place</p><b>Visit ↗</b></a><a href="https://volta-group.vercel.app/partners" target="_blank" rel="noopener"><svg class="vmark " width="42" height="56" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#C9A24B" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><rect x="52" y="132" width="16" height="16" fill="#C9A24B" transform="rotate(45 60 140)"/></svg><h3>Volta partner hub</h3><p>Strategy, ecosystem and roadmap (partners only)</p><b>Visit ↗</b></a></div>
 </div></section>
 <section class="sec alt" id="contact"><div class="wrap"><div class="split">
-<div><p class="kicker">Contact</p><h2>See it before you believe it.</h2><p class="lede">For agencies, clubs, scouting organisations and technology partners. Tell us which workflow matters most to you and we will arrange a demonstration.</p>
-<p class="mute">Enquiries are reviewed by the Volta team. We will not share your details outside Volta.</p></div>
-<form onsubmit="event.preventDefault();this.style.display='none';document.getElementById('ok').style.display='block'">
-<label>Your name<input name="name" required autocomplete="name"></label>
-<label>Email<input type="email" name="email" required autocomplete="email"></label>
-<label>Organisation (if any)<input name="org" autocomplete="organization"></label>
-<label>Enquiry type<select name="type"><option>Agency</option><option>Club or sporting director</option><option>Scouting organisation</option><option>Technology or data partner</option><option>Investor</option><option>Other</option></select></label>
-<label>Message<textarea name="message" required></textarea></label>
-<button class="btn" type="submit">Request a demonstration</button>
+<div><p class="kicker">Contact</p><h2>See it before you believe it.</h2><p class="lede">For clubs, agencies, scouting organisations, data and technology partners.</p>
+<p class="mute">Prefer email? <a href="mailto:enquiries@voltaintelligence.ai">enquiries@voltaintelligence.ai</a>. Enquiries go to the Volta team and are never shared outside Volta.</p></div>
+<div>
+<form id="enq" novalidate>
+<input type="hidden" name="division" value="intelligence">
+<div class="hp" aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<div class="row2"><label>Your name<input name="name" required maxlength="120" autocomplete="name"></label>
+<label>Email<input type="email" name="email" required maxlength="200" autocomplete="email"></label></div>
+<div class="row2"><label>Phone (optional)<input name="phone" maxlength="40" autocomplete="tel"></label>
+<label>Organisation (if any)<input name="organisation" maxlength="160" autocomplete="organization"></label></div>
+
+<label>Enquiry type<select name="enquiry_type"><option>Club or sporting director</option><option>Agency</option><option>Data or technology partner</option><option>Investor</option><option>Other</option></select></label>
+<label>Message<textarea name="message" required maxlength="4000"></textarea></label>
+<button class="btn" type="submit">Request a conversation</button>
 </form>
-<div class="ok" id="ok">Thank you. Your enquiry has been received and the Volta team will come back to you directly.</div>
+<div class="ok" id="ok" role="status">Thank you. Your enquiry has been received and the Volta team will come back to you directly from enquiries@voltaintelligence.ai.</div>
+<div class="err" id="err" role="alert">Your enquiry did not send. Check your connection and try again, or email <a href="mailto:enquiries@voltaintelligence.ai">enquiries@voltaintelligence.ai</a>.</div>
+</div>
 </div></div></section>
+<script>
+(function(){
+var f=document.getElementById('enq');if(!f)return;
+f.addEventListener('submit',function(e){
+e.preventDefault();
+if(!f.reportValidity())return;
+var d=Object.fromEntries(new FormData(f).entries());
+if(d.website){f.style.display='none';document.getElementById('ok').style.display='block';return;}
+delete d.website;
+Object.keys(d).forEach(function(k){if(d[k]==='')d[k]=null;});
+d.source_url=location.href.slice(0,400);
+var b=f.querySelector('button');b.disabled=true;b.textContent='Sending…';
+fetch('https://fjbgdzwmsyawegpqfntb.supabase.co/rest/v1/enquiries',{method:'POST',headers:{'apikey':'sb_publishable_CMG-DTPV9FknngASrsua4g_jSL43veV','Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(d)})
+.then(function(r){if(!r.ok)throw new Error(r.status);f.style.display='none';document.getElementById('err').style.display='none';document.getElementById('ok').style.display='block';})
+.catch(function(){b.disabled=false;b.textContent='Try again';document.getElementById('err').style.display='block';});
+});
+})();
+</script>
 <footer><div class="wrap">
 <div class="cols">
-<div><a class="brand" href="/"><svg class="vmark " width="34" height="45" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#14355E" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="none" stroke="#C9A24B" stroke-width="2.5"><circle cx="60" cy="140" r="5"/><circle cx="46" cy="150" r="3"/><circle cx="74" cy="150" r="3"/><path d="M56 143l-8 5M64 143l8 5"/></g></svg><span>Volta<small>Intelligence</small></span></a><p style="margin-top:16px;max-width:36ch">Volta Intelligence is the football CRM and opportunity engine behind the Volta ecosystem. Intelligence that creates opportunity.</p></div>
-<div><h4>Explore</h4><ul><li><a href="#usecase">Flagship use case</a></li><li><a href="#modules">Platform</a></li><li><a href="#experiences">Who it's for</a></li><li><a href="#trust">Trust</a></li><li><a href="#roadmap">Roadmap</a></li><li><a href="#contact">Contact</a></li></ul></div>
-<div><h4>Volta ecosystem</h4><ul><li><a href="https://volta-group.vercel.app/" target="_blank" rel="noopener">Volta ↗</a><small>Group hub and ecosystem</small></li><li><a href="https://team-volta.vercel.app/" target="_blank" rel="noopener">Team Volta ↗</a><small>Player development and identification</small></li><li><a href="https://volta-management.vercel.app/" target="_blank" rel="noopener">Volta Management ↗</a><small>Representation and athlete management</small></li><li><a href="https://volta-consultancy.vercel.app/" target="_blank" rel="noopener">Volta Consultancy ↗</a><small>Investment and acquisition advisory</small></li><li><a href="/">Volta Intelligence (this site)</a><small>Football CRM and opportunity engine</small></li><li><a href="https://volta-africa.vercel.app/" target="_blank" rel="noopener">Volta Africa ↗</a><small>African talent intelligence, Ghana first</small></li></ul></div>
+<div><a class="brand" href="/"><svg class="vmark " width="34" height="45" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#14355E" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><g fill="none" stroke="#C9A24B" stroke-width="2.5"><circle cx="60" cy="140" r="5"/><circle cx="46" cy="150" r="3"/><circle cx="74" cy="150" r="3"/><path d="M56 143l-8 5M64 143l8 5"/></g></svg><span>Volta<small>Intelligence</small></span></a><p style="margin-top:16px;max-width:36ch">Volta Intelligence: the football recruitment intelligence and mandate engine behind Volta Sports.</p></div>
+<div><h4>Explore</h4><ul><li><a href="#pilot">January pilot</a></li><li><a href="#usecase">How a mandate works</a></li><li><a href="#modules">Platform</a></li><li><a href="#data">Data</a></li><li><a href="#trust">Trust</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h4>Volta Sports</h4><ul><li><a href="https://volta-group.vercel.app/" target="_blank" rel="noopener">Volta Sports ↗</a><small>Volta Sports: the divisions in one place</small></li><li><a href="https://volta-group.vercel.app/partners" target="_blank" rel="noopener">Volta partner hub ↗</a><small>Strategy, ecosystem and roadmap (partners only)</small></li></ul></div>
 </div>
-<div class="fine">© 2026 Volta. All rights reserved. The Volta names describe a public brand family, not a corporate structure. Nothing on this site is an offer of securities, a guarantee of any football outcome, or legal or financial advice. Player representation activity follows applicable FIFA and national rules.</div>
+
+<div class="fine">© 2026 Volta Sports. Team Volta Ltd, 46 Cranbury Road, Reading, Berkshire RG30 2XD. The Volta names describe a public brand family, not a corporate structure. Nothing on this site is an offer of securities, a guarantee of any football outcome, or legal or financial advice.</div>
 </div></footer>
 </body></html>
