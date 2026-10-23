@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volta enquiries inbox</title>
+<meta name="description" content="Private inbox for Volta enquiries.">
+<meta name="keywords" content="Volta, Volta Sports, football, Development, representation, consultancy and intelligence in football">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://volta-group.vercel.app/partners/inbox">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Volta Sports">
+<meta property="og:title" content="Volta enquiries inbox">
+<meta property="og:description" content="Private inbox for Volta enquiries.">
+<meta property="og:url" content="https://volta-group.vercel.app/partners/inbox">
+<meta property="og:image" content="https://volta-group.vercel.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Volta enquiries inbox">
+<meta name="twitter:description" content="Private inbox for Volta enquiries.">
+<meta name="twitter:image" content="https://volta-group.vercel.app/og.png">
+<meta name="theme-color" content="#C9A24B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23F6F2EA%22/%3E%3Cpath%20d%3D%22M10%2010h14l8%2030%208-30h14L40%2056H24z%22%20fill%3D%22%23C9A24B%22%20stroke%3D%22%23C9A24B%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F6F2EA;--paper-2:#EFE9DD;--ink:#121212;--ink-2:#3A3732;--mute:#6E6A62;--line:#D9D2C3;--gold:#C9A24B;--gold-2:#A8853A;--accent:#C9A24B;--on-accent:#FFFFFF;--maxw:1180px;--gutter:clamp(20px,4vw,56px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{margin:0;font-weight:800;line-height:1.02;letter-spacing:-.01em;text-wrap:balance}
+h1{font-size:clamp(44px,7.2vw,104px);font-stretch:112%;text-transform:uppercase;letter-spacing:-.02em;line-height:.94}
+h2{font-size:clamp(32px,4.6vw,60px);font-stretch:105%}
+h3{font-size:clamp(21px,2.2vw,27px)}
+p{margin:0 0 1em}
+.lede{font-size:clamp(19px,1.6vw,23px);line-height:1.45;color:var(--ink-2);max-width:62ch}
+.kicker{font-weight:700;color:var(--accent);margin:0 0 14px;font-size:17px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:700;padding:16px 24px;border:2px solid var(--accent);border-radius:4px;line-height:1}
+.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+/* header */
+.top{position:sticky;top:0;z-index:50;background:rgba(246,242,234,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:74px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;font-stretch:112%;text-transform:uppercase;letter-spacing:.04em;font-size:19px}
+.brand .vmark{height:40px;width:auto}
+.brand small{font-weight:600;letter-spacing:.14em;font-size:11px;color:var(--accent);display:block;line-height:1}
+.nav{display:flex;gap:26px;align-items:center}
+.nav a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink-2)}
+.nav a:hover{color:var(--accent)}
+.nav .btn{padding:11px 16px;font-size:14px}
+.menu{display:none;background:none;border:2px solid var(--ink);border-radius:4px;padding:8px 10px;font:inherit;font-weight:700;cursor:pointer}
+@media (max-width:860px){.nav{display:none;position:absolute;left:0;right:0;top:74px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;padding:16px var(--gutter) 22px}.nav.open{display:flex}.menu{display:block}}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:clamp(48px,8vw,110px) 0 clamp(40px,6vw,80px);border-bottom:6px solid var(--accent)}
+.hero .wrap{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.hero .big{width:clamp(160px,22vw,300px);height:auto;filter:drop-shadow(0 18px 30px rgba(0,0,0,.14))}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero .big{width:140px;order:-1}}
+.ribbon{background:var(--ink);color:#fff;overflow:hidden;white-space:nowrap;font-weight:700;font-stretch:112%;text-transform:uppercase;letter-spacing:.08em;font-size:14px;padding:14px 0}
+.ribbon span{display:inline-block;padding-right:36px}
+.ribbon i{color:var(--gold);font-style:normal;padding-right:36px}
+/* sections */
+.sec{padding:clamp(56px,8vw,112px) 0}
+.sec.alt{background:var(--paper-2)}
+.sec.dark{background:var(--ink);color:#fff}
+.sec.dark .lede,.sec.dark .mute{color:#CFC9BC}
+.sec.dark .kicker{color:var(--gold)}
+.sec.brandband{background:var(--accent);color:var(--on-accent)}
+.sec.brandband .kicker{color:#fff;opacity:.85}.sec.brandband .lede{color:#fff;opacity:.92}
+.head{max-width:760px;margin-bottom:clamp(32px,4vw,56px)}
+.grid{display:grid;gap:28px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:920px){.g3,.g4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.g2,.g3,.g4{grid-template-columns:1fr}}
+.cell{border-top:4px solid var(--accent);padding-top:18px}
+.cell h3{margin-bottom:10px}.cell p{color:var(--ink-2);margin:0}
+.sec.dark .cell p{color:#CFC9BC}.sec.dark .cell{border-color:var(--gold)}
+.cell ul{margin:10px 0 0;padding-left:18px;color:var(--ink-2)}.sec.dark .cell ul{color:#CFC9BC}
+.cell li{margin:4px 0}
+.mute{color:var(--mute);font-size:15px}
+/* pitch lines: the structural device */
+.pitch{border-left:5px solid var(--accent);padding-left:22px}
+.steps{counter-reset:s;display:grid;gap:0;border-top:2px solid var(--ink)}
+.step{display:grid;grid-template-columns:72px 1fr;gap:18px;padding:22px 0;border-bottom:2px solid var(--ink);align-items:start}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font-weight:800;font-size:38px;line-height:1;color:var(--accent);font-stretch:112%}
+.step h3{margin-bottom:6px}.step p{margin:0;color:var(--ink-2)}
+.sec.dark .steps,.sec.dark .step{border-color:#fff}.sec.dark .step::before{color:var(--gold)}.sec.dark .step p{color:#CFC9BC}
+.stat{border-top:6px solid var(--accent);padding-top:14px}
+.stat b{display:block;font-size:clamp(40px,5vw,64px);font-weight:800;font-stretch:112%;line-height:1;letter-spacing:-.02em}
+.stat span{display:block;color:var(--ink-2);margin-top:8px}.stat small{display:block;color:var(--mute);font-size:13px;margin-top:4px}
+.sec.dark .stat{border-color:var(--gold)}.sec.dark .stat span{color:#CFC9BC}
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+@media (max-width:860px){.split{grid-template-columns:1fr}}
+.quote{font-size:clamp(26px,3.4vw,44px);font-weight:800;font-stretch:108%;line-height:1.08;letter-spacing:-.01em}
+.flow{display:flex;flex-wrap:wrap;gap:0;border:2px solid var(--ink);border-radius:6px;overflow:hidden}
+.flow div{flex:1 1 150px;padding:18px 16px;border-right:2px solid var(--ink);font-weight:700;font-stretch:108%;text-transform:uppercase;letter-spacing:.04em;font-size:14px;position:relative}
+.flow div:last-child{border-right:0}
+.flow div small{display:block;text-transform:none;letter-spacing:0;font-weight:500;color:var(--mute);margin-top:6px;font-size:13px}
+.flow div.on{background:var(--accent);color:#fff}.flow div.on small{color:#fff;opacity:.85}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pills span{border:2px solid var(--ink);border-radius:999px;padding:8px 14px;font-weight:600;font-size:14px}
+.sec.dark .pills span{border-color:#fff}
+.alloc{display:flex;height:34px;border-radius:4px;overflow:hidden;border:2px solid var(--ink)}
+.alloc div{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px}
+.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:16px;font-size:14px}
+@media (max-width:760px){.legend{grid-template-columns:1fr 1fr}}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:8px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:12px 12px 12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;border-bottom:2px solid var(--ink)}
+.sec.dark th,.sec.dark td{border-color:#4a463f}
+/* ecosystem */
+.eco{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media (max-width:900px){.eco{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.eco{grid-template-columns:1fr}}
+.eco a{display:block;text-decoration:none;border:2px solid var(--ink);border-radius:6px;padding:22px;background:#fff;transition:transform .15s}
+.eco a:hover{transform:translateY(-3px);border-color:var(--gold)}
+.eco .vmark{height:56px;width:auto;margin-bottom:14px}
+.eco h3{margin-bottom:6px}.eco p{color:var(--ink-2);margin:0 0 10px;font-size:15px}
+.eco b{color:var(--accent);font-size:14px}
+.eco a.here{background:var(--paper-2)}
+/* forms */
+form{display:grid;gap:14px;max-width:560px}
+label{font-weight:600;font-size:14px}
+input,select,textarea{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--ink);border-radius:4px;background:#fff;margin-top:6px}
+textarea{min-height:120px}
+.note{font-size:13px;color:var(--mute)}
+.ok{display:none;padding:18px;border:2px solid var(--accent);border-radius:6px;font-weight:600}
+/* footer */
+footer{background:var(--ink);color:#CFC9BC;padding:56px 0 30px;font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1.4fr;gap:40px}
+@media (max-width:860px){footer .cols{grid-template-columns:1fr}}
+footer h4{color:#fff;margin-bottom:12px;font-size:15px}
+footer a{color:#fff;text-decoration:none}footer a:hover{color:var(--gold)}
+footer ul{list-style:none;margin:0;padding:0}footer li{margin:6px 0}
+footer li small{display:block;color:#9B968B}
+footer .fine{border-top:1px solid #3a3732;margin-top:40px;padding-top:20px;color:#9B968B;font-size:13px}
+footer .brand{color:#fff}footer .brand small{color:var(--gold)}
+footer .disc{border:1px solid #3a3732;border-radius:6px;padding:14px 16px;margin-top:28px;color:#CFC9BC;font-size:13px;line-height:1.5}
+/* v2 */
+.previewbar{background:var(--gold);color:#121212;font-size:13px;font-weight:600;text-align:center;padding:7px 16px}
+.err{display:none;padding:14px;border:2px solid #A51C24;border-radius:6px;color:#A51C24;font-weight:600}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:560px){.row2{grid-template-columns:1fr}}
+.notice{border:2px solid var(--ink);border-radius:6px;padding:20px 22px;background:#fff}
+.notice p{margin:0;color:var(--ink-2)}
+.notice b{display:block;margin-bottom:6px}
+.draft{display:inline-block;background:var(--gold);color:#121212;font-weight:700;font-size:12px;border-radius:3px;padding:3px 8px;margin-bottom:14px}
+.years{display:grid;gap:0;border-top:2px solid var(--ink)}
+.yr{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.yr>b{font-size:38px;font-weight:800;font-stretch:112%;line-height:1;color:var(--accent)}
+.fx{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:flex-start}
+.fx span,.fx a{border:1.5px solid var(--ink);border-radius:4px;padding:7px 11px;font-size:14px;font-weight:600;text-decoration:none;background:#fff}
+.fx small{font-weight:500;color:var(--mute);margin-left:6px}
+.fx a{border-color:var(--accent)}.fx a:hover{background:var(--accent);color:#fff}.fx a:hover small{color:#fff}
+@media (max-width:560px){.yr{grid-template-columns:1fr;gap:8px}.yr>b{font-size:30px}}
+.journey{border:2px solid var(--ink);border-radius:6px;padding:18px;background:#fff}
+.journey .path{font-weight:700;font-size:17px;line-height:1.3;margin-bottom:8px}
+.journey .who{font-size:13px;color:var(--mute)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Volta Sports", "url": "https://volta-group.vercel.app", "description": "Private inbox for Volta enquiries.", "sameAs": ["https://team-volta.vercel.app", "https://volta-management.vercel.app", "https://volta-consultancy.vercel.app"]}</script>
+
+</head>
+<body>
+<div class="previewbar" role="note">Partner preview. Wording, credentials and player stories are awaiting Volta approval before public launch.</div><header class="top"><div class="wrap">
+<a class="brand" href="/partners" aria-label="Volta Sports home"><svg class="vmark " width="32" height="43" viewBox="0 0 120 162" aria-hidden="true" focusable="false"><path d="M8 6h34l18 70 18-70h34L78 116H42z" fill="#C9A24B" stroke="#C9A24B" stroke-width="6" stroke-linejoin="round"/><rect x="52" y="132" width="16" height="16" fill="#C9A24B" transform="rotate(45 60 140)"/></svg><span>Volta<small>Sports</small></span></a>
+<button class="menu" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
+<nav class="nav" id="nav" aria-label="Main"><a href="/partners">Partner hub</a></nav>
+</div></header>
+<style>
+.inbox{display:grid;gap:14px}.card{border:2px solid var(--ink);border-radius:6px;background:#fff;padding:18px}
+.card header{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.tag{display:inline-block;border-radius:3px;padding:2px 8px;font-size:12px;font-weight:700;color:#fff;background:var(--ink)}
+.st-new{background:#A51C24}.st-contacted{background:#14355E}.st-qualified{background:#C8541A}.st-won{background:#0F5F3C}.st-closed{background:#6E6A62}
+.meta{font-size:14px;color:var(--ink-2)}.msg{white-space:pre-wrap;margin:10px 0 14px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin-bottom:22px}.tools label{font-size:13px}
+.tools select{margin-top:4px;padding:9px 10px}.edit{display:grid;grid-template-columns:150px 160px 1fr auto;gap:10px;align-items:end}
+@media (max-width:760px){.edit{grid-template-columns:1fr 1fr}}.edit input,.edit select{padding:9px 10px;margin-top:4px}
+.edit .btn{padding:11px 14px}.counts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.counts span{border:1.5px solid var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600}
+</style>
+<section class="sec"><div class="wrap">
+<div class="head"><p class="kicker">Enquiries inbox · private</p><h2>Every Volta enquiry, by division.</h2>
+<p class="lede">New enquiries arrive here from every Volta site. Reply from the branded address shown on each card, then update the status so the team knows where it stands.</p></div>
+<div class="tools"><label>Division<select id="fdiv"><option value="">All divisions</option><option value="group">Volta Sports</option><option value="team">Team Volta</option><option value="showcase">Showcases</option><option value="management">Volta Management</option><option value="consultancy">Volta Consultancy</option><option value="intelligence">Volta Intelligence</option><option value="africa">Volta Africa</option></select></label>
+<label>Status<select id="fst"><option value="">Any status</option><option>new</option><option>contacted</option><option>qualified</option><option>won</option><option>closed</option></select></label>
+<button class="btn ghost" id="refresh" type="button">Refresh</button></div>
+<div class="counts" id="counts"></div>
+<div class="inbox" id="list"><p class="mute">Loading enquiries…</p></div>
+</div></section>
+<script>
+var all=[];
+function esc(s){return (s==null?'':String(s)).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function render(){
+ var d=document.getElementById('fdiv').value,s=document.getElementById('fst').value;
+ var rows=all.filter(function(r){return (!d||r.division===d)&&(!s||r.status===s);});
+ var c={};all.forEach(function(r){c[r.division_name]=(c[r.division_name]||0)+1;});
+ document.getElementById('counts').innerHTML=Object.keys(c).map(function(k){return '<span>'+esc(k)+': '+c[k]+'</span>';}).join('')||'';
+ var L=document.getElementById('list');
+ if(!rows.length){L.innerHTML='<div class="notice"><b>No enquiries match.</b><p>New enquiries from any Volta site will appear here.</p></div>';return;}
+ L.innerHTML=rows.map(function(r){
+  var subj=encodeURIComponent('Re: your enquiry to '+r.division_name);
+  return '<article class="card"><header><div><span class="tag st-'+esc(r.status)+'">'+esc(r.status)+'</span> <b>'+esc(r.name)+'</b> · '+esc(r.division_name)+'</div><span class="meta">'+new Date(r.created_at).toLocaleString('en-GB')+'</span></header>'
+  +'<div class="meta">'+esc(r.enquiry_type||'')+(r.organisation?' · '+esc(r.organisation):'')+(r.age_group?' · '+esc(r.age_group):'')+(r.location?' · '+esc(r.location):'')+'</div>'
+  +'<div class="msg">'+esc(r.message)+'</div>'
+  +'<div class="meta">Email <a href="mailto:'+esc(r.email)+'?subject='+subj+'">'+esc(r.email)+'</a>'+(r.phone?' · Phone '+esc(r.phone):'')+' · Reply from <b>'+esc(r.reply_from)+'</b></div>'
+  +'<form class="edit" data-id="'+r.id+'" style="margin-top:14px"><label>Status<select name="status">'+['new','contacted','qualified','won','closed'].map(function(x){return '<option'+(x===r.status?' selected':'')+'>'+x+'</option>';}).join('')+'</select></label>'
+  +'<label>Owner<input name="owner" value="'+esc(r.owner)+'" maxlength="60"></label><label>Notes<input name="notes" value="'+esc(r.notes)+'" maxlength="1000"></label><button class="btn" type="submit">Save</button></form></article>';
+ }).join('');
+}
+function load(){
+ fetch('/api/inbox',{credentials:'same-origin'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();})
+ .then(function(j){all=j;render();})
+ .catch(function(e){document.getElementById('list').innerHTML='<div class="notice"><b>The inbox could not load.</b><p>Refresh the page. If it keeps happening, the inbox key on Vercel may need resetting.</p></div>';});
+}
+document.getElementById('fdiv').onchange=render;document.getElementById('fst').onchange=render;document.getElementById('refresh').onclick=load;
+document.addEventListener('submit',function(e){
+ var f=e.target;if(!f.classList.contains('edit'))return;e.preventDefault();
+ var b=f.querySelector('button');b.textContent='Saving…';
+ fetch('/api/inbox',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:f.dataset.id,status:f.status.value,owner:f.owner.value,notes:f.notes.value})})
+ .then(function(r){if(!r.ok)throw new Error();b.textContent='Saved';var row=all.find(function(x){return x.id===f.dataset.id;});row.status=f.status.value;row.owner=f.owner.value;row.notes=f.notes.value;setTimeout(render,700);})
+ .catch(function(){b.textContent='Not saved, retry';});
+});
+load();
+</script>
+</body></html>
